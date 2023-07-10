@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EMjxAoKE0eDuHrfz66GwmOpT2wQDu8sFRuEl9ZM9arcCk0kEL07pnrivyFldHsmr3Abl4ZumeynP3iq0ka3Bmw==",
+  "dgSpecHash": "CbCNfH7nzOnHUa3LAaW49vZLsll/VtwPEOhGuLXFwAqb4hBSwa6q166TSY6dcF8/3Ix1e3qpTKXBYQt+GqMLZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\temp\\Desktop\\image_converter_wpf\\image_converter_wpf\\image_converter_wpf.csproj",
+  "projectFilePath": "C:\\Users\\temp\\Documents\\GitHub\\Image-resolution-changer\\image_converter_wpf\\image_converter_wpf\\image_converter_wpf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\temp\\.nuget\\packages\\extended.wpf.toolkit\\4.5.0\\extended.wpf.toolkit.4.5.0.nupkg.sha512",
     "C:\\Users\\temp\\.nuget\\packages\\haley.abstractions\\1.0.19\\haley.abstractions.1.0.19.nupkg.sha512",

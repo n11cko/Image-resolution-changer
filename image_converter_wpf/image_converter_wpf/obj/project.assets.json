@@ -1144,11 +1144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\temp\\Desktop\\image_converter_wpf\\image_converter_wpf\\image_converter_wpf.csproj",
+      "projectUniqueName": "C:\\Users\\temp\\Documents\\GitHub\\Image-resolution-changer\\image_converter_wpf\\image_converter_wpf\\image_converter_wpf.csproj",
       "projectName": "image_converter_wpf",
-      "projectPath": "C:\\Users\\temp\\Desktop\\image_converter_wpf\\image_converter_wpf\\image_converter_wpf.csproj",
+      "projectPath": "C:\\Users\\temp\\Documents\\GitHub\\Image-resolution-changer\\image_converter_wpf\\image_converter_wpf\\image_converter_wpf.csproj",
       "packagesPath": "C:\\Users\\temp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\temp\\Desktop\\image_converter_wpf\\image_converter_wpf\\obj\\",
+      "outputPath": "C:\\Users\\temp\\Documents\\GitHub\\Image-resolution-changer\\image_converter_wpf\\image_converter_wpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
