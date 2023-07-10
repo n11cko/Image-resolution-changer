@@ -1,0 +1,113 @@
+﻿<Window x:Name="Image_Resizer" x:Class="image_converter_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hw="http://schemas.hpod9.com/haley/wpf"
+        xmlns:hm="http://schemas.hpod9.com/haley/mvvm"
+        xmlns:local="clr-namespace:image_converter_wpf"
+        mc:Ignorable="d"
+        Title="Image Resolution Resizer" Height="380" Width="350" ResizeMode="NoResize" Icon="/web-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg">
+    <Grid Background="LightBlue" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="303*"/>
+        </Grid.ColumnDefinitions>
+        <!-- First row=choosing folder path, 2nd row=all options, 3rd row=button start-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="81*"/>
+            <RowDefinition Height="29*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.ColumnSpan="2" Margin="0,0,0,200" Grid.RowSpan="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+
+            <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
+
+                <Label FontSize="18"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,13,0,0"  Height="34" Width="105" >
+                    Source path
+                </Label>
+
+                <Button Content="Choose path" 
+                Name="btnSpath" Click="btnSourcePath" Width="70" Height="30" 
+                HorizontalAlignment="Left" VerticalAlignment="Bottom" 
+                Margin="46,0,0,10">
+
+                </Button>
+            </StackPanel>
+
+
+            <StackPanel Grid.Column="1" Orientation="Vertical"  DockPanel.Dock="Right">
+                <Label FontSize="18"  HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,13,10,0" Height="34" Width="142"    >
+                    Destination path
+                </Label>
+
+                <Button Content="Choose path" 
+                Name="btnDpath" Click="btnDestinationPath" Width="70" Height="30" 
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                Margin="0,0,46,10">
+
+                </Button>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+
+
+
+
+
+        <TextBlock Visibility="Hidden" Name="sourcePath" Margin="258,0,12,64" RenderTransformOrigin="0.543,0.567" Grid.Column="1">source</TextBlock>
+        <TextBlock Visibility="Hidden" Name="destinationPath" Margin="10,10,9,59">dest</TextBlock>
+
+        <Label Grid.Row="1" HorizontalAlignment="Left" FontSize="18" Margin="81,5,0,112" Width="94" Grid.Column="1">
+            Resolution
+        </Label>
+        <CheckBox Unchecked="isPng_Unchecked" Checked="isPng_Checked" 
+                  Name="isPng" Grid.Row="1" 
+                  Content="Keep transparency for *.png" 
+                  FontSize="12" Margin="36,70,0,0"  
+                  HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Grid.Column="1">
+        </CheckBox>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top"
+                  Name="selectedResolution" Grid.Row="1" Height="30" Width="190"
+                  Margin="33,35,0,0" Grid.Column="1" >
+            <ComboBoxItem IsSelected="True">50x50</ComboBoxItem>
+            <ComboBoxItem>100x100</ComboBoxItem>
+            <ComboBoxItem>200x200</ComboBoxItem>
+            <ComboBoxItem>250x250</ComboBoxItem>
+            <ComboBoxItem>300x300</ComboBoxItem>
+            <ComboBoxItem>400x400</ComboBoxItem>
+            <ComboBoxItem>400x400</ComboBoxItem>
+            <ComboBoxItem>450x450</ComboBoxItem>
+            <ComboBoxItem>500x500</ComboBoxItem>
+            <ComboBoxItem>550x550</ComboBoxItem>
+            <ComboBoxItem>600x600</ComboBoxItem>
+        </ComboBox>
+
+
+        <Button Content="Choose color" 
+                Name="clrPicker" Click="clrPicker_Click" Width="176" Height="40"
+                HorizontalAlignment="Left"  VerticalAlignment="Top"
+                Margin="40,94,0,0" Grid.Row="1" Grid.Column="1"/>
+
+        <ProgressBar Height="30" Width="174" 
+                     VerticalAlignment="Top" HorizontalAlignment="Left"
+                     Name="progressBar" Minimum="0"  
+                     Grid.Row="1" Margin="40,160,0,0" Grid.Column="1"/>
+
+        <Button Content="Start" 
+                Name="btnStart" Click="btnStart_Click" Width="120" Height="42"
+                HorizontalAlignment="Left"  VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Margin="68,0,0,0"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="web-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="Haley.WPF" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="web-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg" />
+  </ItemGroup>
+
+</Project>

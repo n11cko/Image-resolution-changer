@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "EMjxAoKE0eDuHrfz66GwmOpT2wQDu8sFRuEl9ZM9arcCk0kEL07pnrivyFldHsmr3Abl4ZumeynP3iq0ka3Bmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\temp\\Desktop\\image_converter_wpf\\image_converter_wpf\\image_converter_wpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\temp\\.nuget\\packages\\extended.wpf.toolkit\\4.5.0\\extended.wpf.toolkit.4.5.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\haley.abstractions\\1.0.19\\haley.abstractions.1.0.19.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\haley.extensions\\2.1.17\\haley.extensions.2.1.17.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\haley.helpers\\2.1.11\\haley.helpers.2.1.11.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\haley.ioc\\3.0.14\\haley.ioc.3.0.14.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\haley.mvvm\\6.3.4\\haley.mvvm.6.3.4.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\haley.wpf\\5.3.3\\haley.wpf.5.3.3.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\protobuf-net\\3.2.16\\protobuf-net.3.2.16.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\protobuf-net.core\\3.2.16\\protobuf-net.core.3.2.16.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.management\\7.0.1\\system.management.7.0.1.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.security.cryptography.pkcs\\7.0.0\\system.security.cryptography.pkcs.7.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.security.cryptography.xml\\7.0.1\\system.security.cryptography.xml.7.0.1.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
+    "C:\\Users\\temp\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
